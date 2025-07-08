@@ -1,6 +1,6 @@
 import qrcode
 
-url = input('Ведите ссылку: ')
+url = input('Ведите ссылку(Enter link): ')
 
 def get_qrcode(url, name='default'):
     qr = qrcode.make(data=url)
